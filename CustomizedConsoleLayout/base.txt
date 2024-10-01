@@ -1,0 +1,33 @@
+Mon Sep 30 22:18:51 2024
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 560.94                 Driver Version: 560.94         CUDA Version: 12.6     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                  Driver-Model | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA GeForce RTX 3060 ...  WDDM  |   00000000:01:00.0  On |                  N/A |
+| N/A   49C    P8             15W /  105W |     578MiB /   6144MiB |      2%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|    0   N/A  N/A      1828    C+G   ...CBS_cw5n1h2txyewy\TextInputHost.exe      N/A      |
+|    0   N/A  N/A      4688    C+G   ...nt.CBS_cw5n1h2txyewy\SearchHost.exe      N/A      |
+|    0   N/A  N/A      4728    C+G   ...22\Community\Common7\IDE\devenv.exe      N/A      |
+|    0   N/A  N/A      5156    C+G   ... Access Service\ePowerButton_NB.exe      N/A      |
+|    0   N/A  N/A      5660    C+G   ...4\ServiceHub.ThreadedWaitDialog.exe      N/A      |
+|    0   N/A  N/A      9860    C+G   ...paper_engine\bin\webwallpaper32.exe      N/A      |
+|    0   N/A  N/A     10272    C+G   ...2txyewy\StartMenuExperienceHost.exe      N/A      |
+|    0   N/A  N/A     10712    C+G   C:\Windows\explorer.exe                     N/A      |
+|    0   N/A  N/A     13304    C+G   ...5n1h2txyewy\ShellExperienceHost.exe      N/A      |
+|    0   N/A  N/A     16280    C+G   ...Brave-Browser\Application\brave.exe      N/A      |
+|    0   N/A  N/A     17116    C+G   ...ogram Files\Notepad++\notepad++.exe      N/A      |
+|    0   N/A  N/A     17464    C+G   ...siveControlPanel\SystemSettings.exe      N/A      |
+|    0   N/A  N/A     20620    C+G   ...__8wekyb3d8bbwe\WindowsTerminal.exe      N/A      |
+|    0   N/A  N/A     20992    C+G   ...on\129.0.2792.65\msedgewebview2.exe      N/A      |
++-----------------------------------------------------------------------------------------+
