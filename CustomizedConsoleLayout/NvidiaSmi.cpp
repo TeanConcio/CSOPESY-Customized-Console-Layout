@@ -113,7 +113,7 @@ void NvidiaSmi::printNvidiaSmiTable(const NvidiaSmi& nvidiaSmi)
 			GpuColumnHeaderSpaces3,
 			GpuColumnHeaderAlignments3,
 			true);
-
-		CommonPrints::printSeparator(91, '+', '-', { 41, 66 });
 	}
+
+	CommonPrints::printSeparator(91, '+', '-', { 41, 66 });
 }

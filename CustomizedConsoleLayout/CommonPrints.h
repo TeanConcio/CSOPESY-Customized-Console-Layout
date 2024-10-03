@@ -7,6 +7,8 @@
 #include <iomanip>
 #include <algorithm>
 
+
+
 typedef std::string String;
 
 class CommonPrints
@@ -21,12 +23,12 @@ public:
         const std::vector<int>& middleIndices = std::vector<int>(),
         const char middleChar = '+');
 
-	static String trimLeadingWhitespace(const String& str);
-
     static void printTableCell(
         const int columnWidth,
         const String& text,
         const char alignment = 'l');
+
+    static String trimLeadingWhitespace(const String& str);
 
     static void printTableRow(
         const std::vector<String>& headers,
